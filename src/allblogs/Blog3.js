@@ -1,17 +1,29 @@
 import React, { Component } from 'react'
-import "../styles/Home.css";
 import HomepageBanner from '../assets/1600w-1NYTq34QR6I.png';
 import {Link} from 'react-router-dom';
+import "../styles/blogpage.css"
+import Bwhale from '../assets/GamingMoviesWallpapers/Pixels/endangered-species-pixelated-photos-jjsmooth44-4.png';
 
 export default class blog3 extends Component {
   render() {
     return (
       <div className = "fullBlog">
 
+
+        <div class="Ani">
+          <p>This blog will be based around the Blue Whale and the numbers that are left. 
+            To fully view the effect of their numbers, hover your mouse over the text while reading. Move your mouse off your screen or to the sides to view the text. </p>
+       
+        <img src ={Bwhale} alt= "BWimage" />
+        </div>
+
+        <div className='BWImageBlur'>
+
+        <div className='topblog'>
       <h1>Blog 3: The issues with societies Internet
     </h1>
-    <h2>By Sachin Govender 2262800</h2>
-    <br></br>
+    <h2>Written by Sachin Govender (2262800)</h2>
+    </div>
     <div className='blogpara'>
    <p> The internet is a vast global network, one that has evolved since its initial introduction and one that will continually evolve in the future.
       However with this growth has come issues around the internet reflective not only with a technical aspect but that within Society and Design justice 
@@ -43,7 +55,7 @@ export default class blog3 extends Component {
    space to be bridged and the digital divide has to be decreased. This has the biggest positive results and can further lead to the evolution of the internet.</p> 
 
 
-<div className='blogrefrences'>
+
 <h3>Refrences</h3>
 <p1>
 Alton, L. A. (2017, January 6). The 6 Biggest Internet Problems We Need to Solve. TechTarget. Retrieved April 19, 2022, from
@@ -72,6 +84,7 @@ Alton, L. A. (2017, January 6). The 6 Biggest Internet Problems We Need to Solve
 </div>
 
 </div>
+
       </div>
     )
   }

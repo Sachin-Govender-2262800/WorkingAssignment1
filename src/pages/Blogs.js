@@ -8,25 +8,40 @@ import HomepageBanner from '../assets/GamingMoviesWallpapers/Purplepicture.png';
 export default class Blogs extends Component {
   render() {
     return (
-      <div className = "allBlogs" style = {{backgroundImage: `url(${HomepageBanner})`} }>
+      <div className = "allBlogs" >
           <h1 className="blogTitle">Blog Menu</h1>
+
+          <div className = "BlogList">
           
           <Link to = "/FirstBlog">
-        <button>Blog 1 </button>
+        <button>Blog1: web Art</button>
          </Link>
 <br></br>
          <Link to = "/blog2">
-        <button>Blog 2 </button>
+        <button>Blog2: Design and Aesthetics </button>
          </Link>
          <br></br>
          <Link to = "/blog3">
-        <button>Blog 3 </button>
+        <button>Blog3: Internet, Society and Design Justice </button>
          </Link>
          <br></br>
          <Link to = "/blog4">
-        <button>Blog 4 </button>
+        <button>Blog4: Critical Reflection </button>
          </Link>
          <br></br>
+         <Link to = "/PrepBlog">
+        <button>Blog5: Preparatory work </button>
+         </Link>
+         <br></br>
+         <Link to = "/ProBlog">
+        <button>Blog6: Prototype </button>
+         </Link>
+         <br></br>
+         <Link to = "/Reflection2Blog">
+        <button>Blog7: Second Critical Reflection </button>
+         </Link>
+         <br></br>
+         </div>
         
           
       </div>

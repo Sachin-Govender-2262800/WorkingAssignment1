@@ -1,0 +1,98 @@
+        .TigerBlur img {
+            width: 70%;
+            height: 70vh;
+            
+           } 
+           .TigerBlur:hover{
+            backdrop-filter: blur(1px);
+            filter: blur(10px);
+            transition: 0.5s ease;
+      }
+
+
+
+
+      .Amur img {
+        width: 70%;
+        height: 70vh;
+        
+       } 
+       .Amur:hover{
+        backdrop-filter: blur(1px);
+        filter: blur(20px);
+        transition: 0.5s ease;
+  }
+
+
+
+  .chimp img {
+    width: 70%;
+    height: 70vh;
+    
+   } 
+   .chimp:hover{
+    backdrop-filter: blur(1px);
+    filter: blur(3px);
+    transition: 0.5s ease;
+}
+
+
+
+.TigerBlur img {
+    width: 70%;
+    height: 70vh;
+    
+   } 
+   .TigerBlur:hover{
+    backdrop-filter: blur(20px);
+    filter: blur(10px);
+    transition: 0.5s ease;
+}
+
+
+.TigerBlur img {
+    width: 70%;
+    height: 70vh;
+    
+   } 
+   .TigerBlur:hover{
+    backdrop-filter: blur(20px);
+    filter: blur(10px);
+    transition: 0.5s ease;
+}
+
+
+.TigerBlur img {
+    width: 70%;
+    height: 70vh;
+    
+   } 
+   .TigerBlur:hover{
+    backdrop-filter: blur(20px);
+    filter: blur(10px);
+    transition: 0.5s ease;
+}
+
+
+.TigerBlur img {
+    width: 70%;
+    height: 70vh;
+    
+   } 
+   .TigerBlur:hover{
+    backdrop-filter: blur(20px);
+    filter: blur(10px);
+    transition: 0.5s ease;
+}
+
+
+.TigerBlur img {
+    width: 70%;
+    height: 70vh;
+    
+   } 
+   .TigerBlur:hover{
+    backdrop-filter: blur(20px);
+    filter: blur(10px);
+    transition: 0.5s ease;
+}

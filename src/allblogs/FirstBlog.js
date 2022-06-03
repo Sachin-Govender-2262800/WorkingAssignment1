@@ -1,21 +1,38 @@
 import React, { Component } from 'react'
-import HomepageBanner from '../assets/1600w-1NYTq34QR6I.png';
-import FacadeImage from '../assets/Facade.png';
-import {Link} from 'react-router-dom';
+import chimp from '../assets/GamingMoviesWallpapers/Pixels/endangered-species-pixelated-photos-jjsmooth44-7.jpg';
 import "../styles/blogpage.css"
 
 
 export default class blog1 extends Component {
   render() {
     return (
+      
+   
         <div className = "fullBlog"  >
-          
-          
-        <br></br>
-        <h1>Blog 1: Critical Analysis of Façade
-        </h1>
-        <h2>My façade created by Sachin Govender.</h2>
+
+       
+      
+        <div class="Ani">
+          <p>This blog will be based around the chimpanzee and the numbers that are left. 
+            To fully view the effect of their numbers, hover your mouse over the text while reading. Move your mouse off your screen or to the sides to view the text. </p>
+        <img src ={chimp} alt= "Chimpimage" />
+        </div>
+
+        <div className='ChimpImageBlur'>
+        <div className = "topblog">
+       
+        <h1>Blog 1: Critical Analysis of Façade</h1>
+        <h2>My façade Written by Sachin Govender (2262800).</h2>
+        </div>
+
+
+       
+
         <div className='blogpara'>
+      
+       
+  
+
        <p> With this Website being dedicated towards Movies and Video Games I decided to discuss one video game that can sometimes have its own movie plot filled with twitst and turns.
          In this critical analysis, I have taken artwork from the Electronic Literature Collection, from their second volume of works. The artwork is a game known as Façade,
          I chose Façade as it is something that immediately brought back memories to a distant past of not only watching gameplay on YouTube but of myself trying many
@@ -43,7 +60,8 @@ destroys the aura and unique original of the artwork as well as how the creation
   them for being proactive with the artwork allowing the audience to be involved in the project.</p> 
 
 
-<div className='blogrefrences'>
+
+
   <h3>Refrences</h3>
   <p1>Carrier, D. C. (2020, May 16). The Work of Art in the Age of the Internet. HYPERALLERGIC. Retrieved March 13, 2022, 
     from <a href = "https://hyperallergic.com/563938/the-work-of-art-in-the-age-of-the-internet/">https://hyperallergic.com/563938/the-work-of-art-in-the-age-of-the-internet/</a> </p1>
@@ -58,10 +76,14 @@ destroys the aura and unique original of the artwork as well as how the creation
         https://www.gamedeveloper.com/design/the-story-of-facade-the-ai-powered-interactive-drama</a></p1>
         <br></br>
         <br></br>
-</div>
 
-        </div>
+      
       </div>
+      </div>
+
+      </div>
+  
+     
     )
   }
 }

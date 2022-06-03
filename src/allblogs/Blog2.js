@@ -2,17 +2,33 @@ import React, { Component } from 'react'
 import HomepageBanner from '../assets/1600w-1NYTq34QR6I.png';
 import FacadeImage from '../assets/Facade.png';
 import {Link} from 'react-router-dom';
+import "../styles/blogpage.css"
+import AEle from '../assets/GamingMoviesWallpapers/Pixels/endangered-species-pixelated-photos-jjsmooth44-14.jpg';
 
 
 export default class blog2 extends Component {
   render() {
     return (
         <div className = "fullBlog">
-        
-          <h1>Blog 2: Core Design and Aesthetics principles of a website 
-        </h1>
-        <h2>2262800 Sachin Govender</h2>
+
+          <div class="Ani">
+          <p>This blog will be based around the Asian Elephant and the numbers that are left. 
+            To fully view the effect of their numbers, hover your mouse over the text while reading. Move your mouse off your screen or to the sides to view the text. </p>
+       
+        <img src ={AEle} alt= "Eleimage" />
+        </div>
+
+        <div className='AEleImageBlur'>
+          <div className = "topblog">
+
+
+        <h1>Blog 2: Core Design and Aesthetics principles of a website </h1>
         <br></br>
+        <br></br>
+        <br></br>
+        <h2>Written by Sachin Govender (2262800)</h2>
+        <br></br>
+        </div>
         <div className='blogpara'>
 <p> Creating a website is an incredibly exciting thing however the success of a website can entirely depend on its web design. 
   As in many cases the website is the face of your brand or business and is how potential customers and viewers are introduced to it.
@@ -91,10 +107,13 @@ This can be achieved by organizing information through the use of heading and su
         </p1>
         <br></br>
         <br></br>
-</div>
-
         </div>
-      </div>
+        </div>
+        </div>
+        </div>
+        
+      
+      
     )
   }
 }

@@ -1,45 +1,106 @@
 import React, { Component } from 'react'
 import "../styles/Contact.css" 
 
+
 export default class Contact extends Component {
   render() {
     return (
-      <div className='contacttable'>
-    
-    <h1>Contact us</h1>
-    <p>You can reach us using the following methods to ask questions, lodge complaints or if there is any information you would like to share!
-      we appreciate all kinds of feedback!
-    </p>
 
-      <div className="container">
-      <h2>Contact details</h2>
-  
+     
+      <div className="ContactForm">
+        <div className = "body">
 
-  <div className="App">
-      <table>
-        <tr>
-          <th>Number</th>
-          <th>082 444 8888</th>
+          <h1> Contact Us </h1>
         
-        </tr>
-        <tr>
-          <td>Email</td>
-          <td>2262800@students.wits.ac.za</td>
-        </tr>
-        <tr>
-          <td>Instagram</td>
-          <td>www.Instagram.com</td>
-        
-        </tr>
-        <tr>
-          <td>Twitter</td>
-          <td>www.Twitter.com</td>
-          
-        </tr>
-      </table>
-    </div>
-    </div>
-</div>
+
+          <div id= "container">
+            <div className = "Info">
+            <h4>Contact Information</h4>
+                <p>Fill up the form if you if you would like us to reach out to you!</p>
+
+                <div className = "icontext">
+                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                  <span>082-907-4444</span>
+                </div>
+
+                <div className = "icontext">
+                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                  <span>2262800@students.wits.ac.za</span>
+                </div>
+
+                <div className = "icontext">
+                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                  <span>https://twitter.com/</span>
+                </div>
+
+                <div className = "icontext">
+                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                  <span>https://www.instagram.com/</span>
+                </div>
+
+
+                <div className = "Socials">
+                  <a href = "#" className ="icon-circle">
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  </a>
+
+                  <a href = "#" className ="icon-circle">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+
+                  <a href = "#" className ="icon-circle">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+
+               
+                </div>
+                </div>
+              <form>
+                <div className = "col2">
+                <div className='group'>
+                  <label>First Name</label>
+                  <input type="text"/>
+                </div>
+
+                <div className='group'>
+                  <label>Last Name</label>
+                  <input type="text"/>
+                </div>
+
+                <div className='group'>
+                  <label>Number</label>
+                  <input type="tel"/>
+                </div>
+
+                <div className='group'>
+                  <label>E-mail</label>
+                  <input type="email"/>
+                </div>
+
+                <div className='group solo'>
+                  <label>Message</label>
+                  <textarea></textarea>
+                </div>
+
+                <div className='group solo right'>
+                  <button className = "primary">Send Message</button>
+                
+                </div>
+
+                </div>
+
+              </form>
+
+              
+            </div>
+          </div>
+          </div>
+
+
+   
+         
+     
+   
     )
   }
 }

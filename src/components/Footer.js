@@ -7,7 +7,7 @@ export default class Footer extends Component {
     return (
       <div className= "footer">
           <div className = "SMedia">
-              <p>&copy;2022 Binging Gamers</p>
+              <p>&copy;2022 Pixel Crossing</p>
               
           </div>
          

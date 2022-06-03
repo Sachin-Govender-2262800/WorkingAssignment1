@@ -34,6 +34,7 @@ export default class Navbar extends Component {
             <Link to = '/blogs'>Blogs</Link>
             <Link to = '/contact'>Contact</Link>
             <Link to = '/design'>Designs</Link>
+            <Link to = '/PixleMakerIndex'>PixelMaker</Link>
             
            
             </div>
@@ -47,6 +48,7 @@ export default class Navbar extends Component {
             <Link to = '/blogs'>Blogs</Link>
             <Link to = '/contact'>Contact</Link>
             <Link to = '/design'>Designs</Link>
+            <Link to = '/PixleMakerIndex'>PixelMaker</Link>
             
             </div>
         </div>

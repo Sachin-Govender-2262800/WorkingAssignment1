@@ -6,13 +6,14 @@ import HomepageBanner from '../assets/GamingMoviesWallpapers/Purplepicture.png';
 export default class Design extends Component {
   render() {
     return (
-      <div className = "allList" style = {{backgroundImage: `url(${HomepageBanner})`} }>
-
+      <div className = "allList" >
+   <form >
         <div className = "pagelinks">
         <h1 className="pagesTitle">Design Page</h1>
         <br></br>
         <br></br>
         
+     
           <Link to = "/Wireframe">
         <button>Website Wireframe and Schemes</button>
         </Link>
@@ -28,9 +29,13 @@ export default class Design extends Component {
         </Link>
         <br></br>
         <br></br>
+        <Link to = "/sub2changes">
+        <button>Submission 2 Changes</button>
+        </Link>
         </div>
-          
+        </form>
       </div>
+   
     )
   }
 }

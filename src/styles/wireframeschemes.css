@@ -11,7 +11,7 @@
     font-size: 90px;
     height: 60px;
     font-weight: 500;
-    color: #845BB3;
+    color: #4c442c;
 }
 
 .webframes h2{
@@ -20,7 +20,7 @@
     font-size: 70px;
     height: 50px;
     font-weight: 500;
-    color: #845BB3;
+    color: #8d786e;
 }
 
 
@@ -29,7 +29,7 @@
 padding:0;
 font: 60px;
 font-weight: lighter;
-color: #494D5F;
+color: #c1bdc6;
 
 }
 
@@ -47,7 +47,7 @@ color: #494D5F;
     font-size: 80px;
     height: 60px;
     font-weight: 500;
-    color: #845BB3;
+    color: #8d786e;
 }
 
 .Wframes p{
@@ -55,7 +55,7 @@ padding:0;
 font: 60px;
 font-size: 25px;
 font-weight: lighter;
-color: #494D5F;
+color: #c1bdc6;
 
 }
 
@@ -63,7 +63,10 @@ color: #494D5F;
     width: 70%;
     height: 70vh;
     
+    
     }
+
+    
 
     .Wframes h3{
         justify-content: center;
@@ -71,7 +74,7 @@ color: #494D5F;
         font-size: 50px;
         height: 30px;
         font-weight: 500;
-        color: #845BB3;
+        color: #8d786e;
     }
 
 
@@ -89,19 +92,19 @@ color: #494D5F;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        color: #845BB3;
-        background-color: #494D5F;
+        color: #8d786e;
+        background-color: #081413;
     }
 
     .webframes h1{
         font-size: 40px;
         height: 30px;
-        color: #845BB3;
+        color: #8d786e;
     }
 
     .webframes p{
         font-size: 30px;
-        color: #845BB3;
+        color: #8d786e;
     }
 
     .Wframes img{

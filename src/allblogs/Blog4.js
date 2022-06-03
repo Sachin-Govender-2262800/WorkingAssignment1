@@ -1,17 +1,30 @@
 import React, { Component } from 'react'
-import "../styles/Home.css";
+import "../styles/blogpage.css"
 import HomepageBanner from '../assets/1600w-1NYTq34QR6I.png';
+import BFF from '../assets/GamingMoviesWallpapers/Pixels/endangered-species-pixelated-photos-jjsmooth44-13.jpg';
 import {Link} from 'react-router-dom';
 
 export default class blog4 extends Component {
   render() {
     return (
-      <div className = "fullBlog">
+      <div className = "BlogAll">
 
+
+<div class="Ani">
+          <p>This blog will be based around the Black Footed Ferret and the numbers that are left. 
+            To fully view the effect of their numbers, hover your mouse over the text while reading. Move your mouse off your screen or to the sides to view the text. </p>
+       
+        <img src ={BFF} alt= "BFFimage" />
+        </div>
+
+        <div className='BFFImageBlur'>
+
+
+        <div className = "topblog">
       <h1>Blog 4: Self Critique 
     </h1>
-    <h2>By Sachin Govender 2262800</h2>
-    <br></br>
+    <h2>Written by Sachin Govender (2262800)</h2>
+    </div>
     <div className='blogpara'>
    <p> Today’s blog is going to be a different one rather than one discussing internet art, movies or video games, rather I will be performing a self-critique of
       my website. This is an important thing to do to ensure that my website is not only up to standards for my audience as well as potential viewers but is up to
@@ -40,6 +53,7 @@ export default class blog4 extends Component {
 
 
 </div>
+      </div>
       </div>
     )
   }

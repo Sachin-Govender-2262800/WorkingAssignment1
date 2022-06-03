@@ -22,7 +22,7 @@
     font-size: 90px;
     height: 60px;
     font-weight: 500;
-    color: #E5EAF5;
+    color: #4c442c;
 }
 
 .pagelinks p{
@@ -30,18 +30,18 @@ padding:0;
 align-items: center;
 font-size: 25px;
 font-weight: lighter;
-color: #E5EAF5;
+color: #c1bdc6;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
 .pagelinks button {
-    color: #494D5F;
+    color: #081413;
     border:none;
     border-radius: 100px;
     cursor: pointer;
     justify-content: center;
-    background-color:#D0BDF4 ;
+    background-color:#8d786e ;
     height: 90px;
     width: 200px;
     text-decoration: none;
@@ -50,7 +50,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .pagelinks button:hover{
-    background-color: #312249;
+    background-color: #4c442c;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -69,30 +69,30 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        color: #E5EAF5;
-        background-color: #494D5F;
+        color: #8d786e;
+        background-color: #081413;
     }
 
     .pagelinks h1{
         font-size: 40px;
         height: 30px;
-        color: #E5EAF5;
+        color: #c1bdc6;
     }
 
     .pagelinks p{
         font-size: 30px;
-        color: #E5EAF5;
+        color: #8d786e;
     }
 
     .pagelinks button{
-        background-color: #E5EAF5;
-        color: #494D5F;
+        background-color: #8d786e;
+        color: #081413;
         margin-bottom: 30px;
     }
 
     .pagelinks button:hover{
-        background-color: #E5EAF5;
-        color: #494D5F;
+        background-color: #8d786e;
+        color: #081413;
     }
 
     .DList{

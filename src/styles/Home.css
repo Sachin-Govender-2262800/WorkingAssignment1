@@ -19,10 +19,10 @@
 .header h1{
     justify-content: center;
     align-items: center;
-    font-size: 90px;
-    height: 60px;
+    font-size: 100px;
+    height: 80px;
     font-weight: 500;
-    color: #E5EAF5;
+    color: #2b1bbe;
 }
 
 .header p{
@@ -30,25 +30,27 @@ padding:0;
 align-items: center;
 font-size: 20px;
 font-weight: lighter;
-color: #E5EAF5;
+height: 30px;
+color: #8d786e;
 
 }
 
 .header button {
-    color: #494D5F;
+    color: #081413;
     border:none;
     border-radius: 100px;
     cursor: pointer;
     justify-content: center;
-    background-color:#D0BDF4 ;
+    background-color:#8d786e ;
     height: 60px;
     width: 200px;
     text-decoration: none;
     font-size: 25px;
+    height: 80px;
 }
 
 .header button:hover{
-    background-color: #312249;
+    background-color: #4c442c;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -67,30 +69,30 @@ color: #E5EAF5;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        color: #E5EAF5;
-        background-color: #494D5F;
+        color: #8d786e;
+        background-color: #081413;
     }
 
     .header h1{
         font-size: 40px;
         height: 30px;
-        color: #E5EAF5;
+        color: #8d786e;
     }
 
     .header p{
         font-size: 30px;
-        color: #E5EAF5;
+        color: #8d786e;
     }
 
     .header button{
-        background-color: #E5EAF5;
-        color: #494D5F;
+        background-color: #8d786e;
+        color: #081413;
         margin-bottom: 30px;
     }
 
     .header button:hover{
-        background-color: #E5EAF5;
-        color: #494D5F;
+        background-color: #4c442c;
+        color: #081413;
     }
 
 

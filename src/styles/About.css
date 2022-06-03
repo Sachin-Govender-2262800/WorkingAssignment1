@@ -30,7 +30,7 @@
     font-size: 100px;
     height: 100px;
     font-weight: 500;
-    color: #8458B3;
+    color: #4c442c;
 }
 
 .about .aboutBot p{
@@ -42,7 +42,7 @@
 .about .aboutBot{
     font-weight: 400;
     font-size: 70px;
-    color: #494D5F;
+    color: #c1bdc6;
     height: 30px;
     display: flex;
     justify-content: center;

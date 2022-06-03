@@ -1,0 +1,70 @@
+ 
+  .Header h1{
+    font-size: 80px;
+    height: 100px;
+    color: #8d786e;
+  }
+
+  .Header h1{
+    font-size: 80px;
+    height: 100px;
+    color: #8d786e;
+  }
+
+  .Header p{
+            padding:0;
+            align-items: center;
+            font-size: 25px;
+            font-weight: lighter;
+          color: #c1bdc6;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  button {
+    color: #081413;
+    border:none;
+    border-radius: 100px;
+    cursor: pointer;
+    justify-content: center;
+    background-color:#8d786e ;
+    height: 100px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 25px;
+    height: 80px;
+}
+
+button:hover{
+    background-color: #4c442c;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+  
+  
+  
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      align-content: flex-start;
+    }
+     
+    .PixMain img {
+      padding: 0 20px 20px;
+      height: 300px;
+      border-radius: 34;
+    }
+     
+    .PixMain img:hover {
+      padding: 5px;
+      transition: 0.9s;
+      transform: scale(
+        1.24
+      ); 
+    }
+     
+
+    
+  
